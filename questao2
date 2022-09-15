@@ -8,3 +8,4 @@ No entanto, o professor se ausentou da sala por cinco minutos e, ao voltar, perc
 
 Sabendo que o professor tem dificuldade de memorizar, informe como ele descobriu a cadeira em que houve a troca de alunos e qual a disciplina de cada um. 
 
+Resposta: Cada fileira contém 4 alunos que preferem uma disciplina + 2 que preferem a disciplina contrária. Assim que o aluno trocou de lugar, a quinta fileira ficou com 3 alunos que preferem uma disciplina + 3 alunos que preferem a outra disciplina, assim o professor consegui identificar a troca. 
