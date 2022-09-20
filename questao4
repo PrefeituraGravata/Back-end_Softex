@@ -1,0 +1,56 @@
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+
+programa
+{
+ 
+	funcao inicio()
+	{
+		cadeia nome, endereco, cidade, nome_pai, nome_mae, cpf, rg
+		inteiro idade
+		real peso, renda_bruta
+		
+		escreva("=============CADASTRO=============")
+		escreva("\nDigite seu nome: ")
+		leia(nome)
+
+		escreva("Digite sua idade: ")
+		leia(idade)
+		
+		escreva("Digite seu endereco: ")
+		leia(endereco)
+		
+		escreva("Digite seu cidade: ")
+		leia(cidade)
+		
+		escreva("Digite o nome do seu pai: ")
+		leia(nome_pai)
+		
+		escreva("Digite o nome da sua mãe: ")
+		leia(nome_mae)
+		
+		escreva("Digite seu CPF: ")
+		leia(cpf)
+		
+		escreva("Digite seu RG: ")
+		leia(rg)
+
+		escreva("Digite seu peso: ")
+		leia(peso)
+
+		escreva("Digite sua renda bruta: ")
+		leia(renda_bruta)
+
+		escreva("\n\nCADASTRO REALIZADO COM SUCESSO")
+	}
+}
