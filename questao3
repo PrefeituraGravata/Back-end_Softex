@@ -12,3 +12,7 @@ No algoritmo, descreva como será:
 3. Utilizado o comando de atribuição.
 
 Resposta: 
+
+caracter nome, endereco
+inteiro rg,cpf
+real altura
