@@ -1,0 +1,43 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		caracter turma
+		inteiro count, qtd_aprovados = 0, MaiorNota = 0
+		cadeia nome
+		real nota
+		
+		escreva("-------------------------------------------")
+   		escreva("\n---------------Escola Softex---------------")
+   		escreva("\n-------------------------------------------")
+		
+		para(count = 1; count<=3; count ++){
+
+			escreva("\nDigite o nome do Aluno ",count,":")
+			leia(nome)
+
+			escreva("Digite a turma do Aluno ",count,":")
+			leia(turma)
+			
+			escreva("Digite a nota do aluno ",count,": ")
+			leia(nota)
+
+			se(nota < 0 ou nota >10){
+				escreva("Nota inválida!\nDigite uma nota entre 0 e 10: ")
+				leia(nota)
+			}
+				se(nota > MaiorNota){
+					MaiorNota = nota
+				}
+					se(nota >=7){
+						escreva("APROVADO!!!\n")
+						qtd_aprovados = qtd_aprovados + 1
+					}senao{
+						escreva("REPROVADO!!!\n")
+					}
+		}
+			escreva("\nHouveram ", qtd_aprovados, " aluno(s) aprovado(s)")
+			escreva("\nA maior nota foi: ", MaiorNota)
+		}
+	}
